@@ -126,7 +126,7 @@ def main():
                 for link in driver.find_elements_by_css_selector("li a.appx-tile.appx-tile-app.tile-link-click"):
                     if link.get_attribute("href") not in all_app_links:
                         all_app_links.append(url)
-            except: Exception as e:
+            except Exception as e:
                 print("Exception:\t", str(e))
         all_apps_data = []
         for link in all_app_links:
