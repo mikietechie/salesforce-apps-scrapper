@@ -1,3 +1,10 @@
+"""
+Work done by Mike Zinyoni
+Python JavaScript engineer
+
+!actively looking for a job!
+"""
+
 import bs4, os, csv, datetime, re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
